@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/lua-say-$1\.tar\.gz/ \
+  https://github.com/Olivine-Labs/say/tags .*/v?(\d\S*)\.tar\.gz

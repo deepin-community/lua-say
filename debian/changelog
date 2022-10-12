@@ -1,0 +1,45 @@
+lua-say (1.3-1-5) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Helmut Grohne ]
+  * Mark lua-say Multi-Arch: foreign. (Closes: #923662)
+
+  [ Jason Pleau ]
+  * Point Vcs-* fields to salsa.debian.org
+
+  [ James McCoy ]
+  * Build-Depend on debhelper-compat (= 13) (Closes: #970089)
+  * Set Rules-Requires-Root=no
+  * Annotate lua-busted Build-Depends with <!nocheck> profile
+  * Declare compliance with Policy 4.5.1
+
+ -- James McCoy <jamessan@debian.org>  Mon, 30 Nov 2020 21:54:16 -0500
+
+lua-say (1.3-1-4) unstable; urgency=medium
+
+  * Add lua-busted to test dependencies, so tests pass on CI
+
+ -- Jason Pleau <jason@jpleau.ca>  Mon, 25 Jul 2016 11:08:28 -0400
+
+lua-say (1.3-1-3) unstable; urgency=medium
+
+  * Enable tests: add lua-busted to build dependencies
+
+ -- Jason Pleau <jason@jpleau.ca>  Sun, 24 Jul 2016 00:25:32 -0400
+
+lua-say (1.3-1-2) unstable; urgency=medium
+
+  * Add support for lua5.3
+  * Remove the lua-say-dev package: lua-only packages don't need a -dev
+    package.
+  * Update Standards-Version to 3.9.8: no changes needed
+  * update debian/copyright
+
+ -- Jason Pleau <jason@jpleau.ca>  Tue, 03 May 2016 20:32:50 -0400
+
+lua-say (1.3-1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #783215)
+
+ -- Jason Pleau <jason@jpleau.ca>  Wed, 22 Apr 2015 19:14:31 -0400
